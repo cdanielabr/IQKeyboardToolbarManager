@@ -14,8 +14,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/cdanielabr/IQKeyboardToolbar.git", from: "master"),
-        .package(url: "https://github.com/cdanielabr/IQTextInputViewNotification", from: "master"),
+        .package(url: "https://github.com/cdanielabr/IQKeyboardToolbar.git", from: "main"),
+        .package(url: "https://github.com/cdanielabr/IQTextInputViewNotification", from: "main"),
     ],
     targets: [
         .target(name: "IQKeyboardToolbarManager",
