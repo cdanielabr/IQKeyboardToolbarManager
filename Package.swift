@@ -5,7 +5,7 @@ import PackageDescription
 let package = Package(
     name: "IQKeyboardToolbarManager",
     platforms: [
-        .iOS(.v13)
+        .iOS(.v15)
     ],
     products: [
         .library(
@@ -14,8 +14,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/hackiftekhar/IQKeyboardToolbar.git", from: "1.1.5"),
-        .package(url: "https://github.com/hackiftekhar/IQTextInputViewNotification", from: "1.0.9"),
+        .package(url: "https://github.com/cdanielabr/IQKeyboardToolbar.git", from: "master"),
+        .package(url: "https://github.com/cdanielabr/IQTextInputViewNotification", from: "master"),
     ],
     targets: [
         .target(name: "IQKeyboardToolbarManager",
